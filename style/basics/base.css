@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    color: var(--clr-primary-base);
+    font-family: lato-regular;
+}
+
+body {
+}
