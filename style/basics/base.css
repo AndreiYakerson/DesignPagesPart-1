@@ -4,8 +4,14 @@
 
 html {
     color: var(--clr-primary-base);
-    font-family: lato-regular;
+    font-family: lato-regular, serif;
 }
 
 body {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.card-container img {
+    width: 100%;
 }
