@@ -1,13 +1,13 @@
 .card-container button {
     font-family: lato-bold;
-    color: var(--clr-primary-base-3);
+    color: var(--clr-primary-base-4);
 
     align-self: end;
 
     width: 194px;
     height: 40px;
 
-    border: solid var(--clr-primary-base-3);
+    border: solid var(--clr-primary-base-4);
     border-radius: 30px;
     
     background-color: white;
