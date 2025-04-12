@@ -1,13 +1,8 @@
 .main-header {
     grid-column: 1/-1;
+
     background-color: var(--clr-primary-base);
     margin-bottom: 30px;
-    display: grid;
-    grid-template-columns:
-    minmax(100px,1fr)
-    minmax(auto,1023px)
-    minmax(100px,1fr)
-    ;
 }
 
 .header-content {
