@@ -32,12 +32,12 @@
     column-gap: 42px;
 }
 
-.card-container :first-child() {
-    grid-column: 1;
-}
-
 .card-container > *:not(img) {
     grid-column: 2;
+}
+
+.card-container:last-child() {
+    background-color: blue;
 }
 
 .card-text-container {
@@ -50,6 +50,8 @@
     margin-block-start: 0;
     text-align: justify;
 } 
+
+
 
 /* pages layout */
 .pages-container {

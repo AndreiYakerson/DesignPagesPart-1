@@ -1,0 +1,32 @@
+.card-container button {
+    font-family: lato-bold;
+    color: var(--clr-primary-base-3);
+
+    align-self: end;
+
+    width: 194px;
+    height: 40px;
+
+    border: solid var(--clr-primary-base-3);
+    border-radius: 30px;
+    
+    background-color: white;
+}
+
+.card-container button::after {
+    content: '→';
+    padding-inline: 0.5rem;
+}
+
+
+.card-container button:hover {
+    color: #58C93A;
+    border: solid #58C93A;
+}
+
+button:hover body {
+    background-color: black;
+}
+
+
+
