@@ -1,0 +1,20 @@
+.pages-container button {
+    font-family: lato-bold;
+    font-size: 1.125rem;
+    color: var(--clr-primary-base-3);
+
+    border: none;
+    padding-block: 30px;
+    background-color: white;
+}
+
+.prev-btn::before {
+    content: '←';
+    padding-inline: 0.5rem;
+}
+
+.next-btn::after {
+    content: '→';
+    padding-inline: 0.5rem;
+}
+
