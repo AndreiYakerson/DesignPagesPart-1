@@ -1,6 +1,4 @@
 
-
-
 .main-navigation button {
     font-family: lato-bold;
     background-color: var(--clr-primary-base);
@@ -9,6 +7,7 @@
     height: 130px;
     padding-inline: 40px;
     transition: 200ms;
+    opacity: 0.9;
 }
 
 .main-navigation button:hover {
@@ -16,5 +15,6 @@
     border-bottom: solid rgb(54, 182, 54) 5px;
     cursor: pointer;
 }
+
 
 

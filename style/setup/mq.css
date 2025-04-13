@@ -1,9 +1,20 @@
 @media screen and (width < 740px) {
 
     .main-navigation {
+        position: fixed;
+        inset: 0 0 0 auto;
+        translate: 100%;
+        width: 50%;
+
         display: flex;
         flex-direction: column;
+
         color: white;
+
+        transition: 1s;
+        background-color: var(--clr-primary-base);
+        box-shadow: -3px 0px 18px #000000c2;
+
     }
 
     .main-layout {
@@ -23,6 +34,8 @@
 
 @media screen and (width > 740px) {
 
+
+
     .card-container {
         display: grid;
     }
@@ -37,11 +50,15 @@
             minmax(100px, 1fr) minmax(auto, 1023px) minmax(100px, 1fr);
     }
 
-   
+    .burger {
+        display: none;
+    }
 
-   
 
-    
+
+
+
+
 
 
 }
