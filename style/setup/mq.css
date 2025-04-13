@@ -1,0 +1,43 @@
+@media screen and (width < 740px) {
+
+    .main-navigation {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .main-layout {
+        display: grid;
+        grid-template-columns:
+            minmax(10px, 1fr) minmax(auto, 1023px) minmax(10px, 1fr);
+    }
+
+
+
+}
+
+
+@media screen and (width > 740px) {
+
+    .card-container {
+        display: grid;
+    }
+
+    .main-container {
+        padding: 80px 26px 0 0;
+    }
+
+    .main-layout {
+        display: grid;
+        grid-template-columns:
+            minmax(100px, 1fr) minmax(auto, 1023px) minmax(100px, 1fr);
+    }
+
+   
+
+   
+
+    
+
+
+}

@@ -1,0 +1,30 @@
+.main-footer {
+    background-color: #F8F8F8;
+}
+
+.footer-nav > * {
+    height: 43px;
+    width: 43px;
+
+    background-color: lightgray;
+
+    transition: 300ms;
+}
+
+.footer-nav > * img {
+    width: 15px;
+    height: 15px;
+}
+
+.footer-nav > *:hover {
+    background-color: blue;
+}
+
+.main-footer :first-child {
+    color: var(--clr-primary-base);
+}
+
+.main-footer p {
+    color: var(--clr-primary-base-4);
+}
+
