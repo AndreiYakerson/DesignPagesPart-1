@@ -1,4 +1,5 @@
 .pages-container button {
+
     font-family: lato-bold;
     font-size: 1.125rem;
     color: var(--clr-primary-base-3);
@@ -6,6 +7,10 @@
     border: none;
     padding-block: 30px;
     background-color: white;
+}
+
+.pages-container button:hover {
+    color: #58C93A;
 }
 
 .prev-btn::before {
