@@ -13,6 +13,7 @@
 
         transition: 1s;
         background-color: var(--clr-primary-base);
+        opacity: .9;
         box-shadow: -3px 0px 18px #000000c2;
 
     }
