@@ -12,6 +12,10 @@
             minmax(10px, 1fr) minmax(auto, 1023px) minmax(10px, 1fr);
     }
 
+    .main-container {
+        padding-inline: 10px;
+    }
+
 
 
 }
