@@ -1,4 +1,4 @@
-.card-container button {
+.card-btn {
     font-family: lato-bold;
     color: var(--clr-primary-base-4);
 
@@ -19,7 +19,7 @@
 }
 
 
-.card-container button:hover {
+.card-btn:hover {
     color: #58C93A;
     border: solid #58C93A;
 }

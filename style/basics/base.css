@@ -7,7 +7,14 @@ html {
     font-family: lato-regular, serif;
 }
 
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
     color: var(--clr-primary-base-1);
 }
 
@@ -22,16 +29,13 @@ body {
 
 .card-container img {
     width: 100%;
-    min-width: 387px;
+    min-width: 400px;
 }
 
-.main-footer {
-    padding-block: 80px;
-    height: 320px;
-
+.base-input {
+    height: 2em;
+    border-radius: 0.5em;
+    border: none;
     background-color: var(--clr-primary-base-4);
 }
-
-
-
 

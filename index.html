@@ -41,7 +41,7 @@
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...
                 </p>
-                <button class="card-btn">Continue Reading</button>
+                <button class="card-btn" onclick="onShowModal()">Continue Reading</button>
             </section>
         </div>
 
@@ -58,7 +58,7 @@
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...
                 </p>
-                <button class="card-btn">Continue Reading</button>
+                <button class="card-btn" onclick="onShowModal()">Continue Reading</button>
             </section>
         </div>
 
@@ -77,7 +77,7 @@
                     pariatur...
                 </p>
 
-                <button class="card-btn">Continue Reading</button>
+                <button class="card-btn" onclick="onShowModal()">Continue Reading</button>
             </section>
         </div>
 
@@ -87,6 +87,15 @@
         </footer>
 
     </main>
+
+    <dialog class="dialog">
+        <h2>Join us to get access to the latest stories...</h2>
+        <label for="email">
+            Email:
+            <input class="base-input" type="email" id="email">
+        </label>
+        <button type="sumbit" class="card-btn" onclick="onCloseModal()">Submit</button>
+    </dialog>
 
     <footer class="main-footer">
         <div class="logo">Blogin.</div>

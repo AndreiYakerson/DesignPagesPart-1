@@ -1,0 +1,15 @@
+.dialog {
+    justify-items: center;
+    row-gap: 30px;
+
+    border-color: var(--clr-primary-base-2);
+    border-radius: 2rem;
+
+    box-shadow: 4px 4px 7px 1px #000000ad;
+
+}
+
+.dialog::backdrop {
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+}
